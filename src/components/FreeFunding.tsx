@@ -7,7 +7,7 @@ export default function FreeFunding() {
     return (
         <section className="w-full flex-col mt-14">
             <div className="relative md:w-[90%] lg:w-[80%] mx-auto rounded-[50px] isolate overflow-hidden bg-[#EDFCFC] px-6 py-10 lg:px-16 lg:py-10">
-                <div className="mx-auto max-w-6xl grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
+                <div className="mx-auto max-w-6xl  flex flex-col-reverse lg:grid lg:grid-cols-2 items-center gap-8">
                     <div className="space-y-4 text-center lg:text-left">
                         <div className="flex justify-center lg:justify-start">
                             <div className="h-12 w-12 bg-[#CFE9E9] flex justify-center items-center rounded-[14px]">
